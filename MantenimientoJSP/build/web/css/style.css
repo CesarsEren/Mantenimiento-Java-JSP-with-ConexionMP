@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    --colororange: #FF971D;
+    --colortext: #FFF;
+    --colorgray: #D4C9C9;
+    --bg-principal: #F9F6F7;
+}
+form{
+    padding: 45px;
+}
+.float-end {
+    float: right;
+}
+.container {
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+} 
+form *{ 
+    display:block;
+}
+.menu-item-img {
+    display: inline-block;
+    top: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+    vertical-align: middle;
+}
+.menu-item {
+    opacity: 0.75;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.menu-item-active {
+    background-color: var(--colororange);
+    color: var(--colortext);
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-item-active a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item:hover {
+    opacity: 1;
+    background-color: var(--colororange);
+    color: var(--colortext);
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-item:hover a {
+    color: white;
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item-img {
+    display: inline-block;
+    top: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+    vertical-align: middle;
+}

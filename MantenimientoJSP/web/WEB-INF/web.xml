@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Producto</servlet-name>
+        <servlet-class>servlets.Producto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvlCategoria</servlet-name>
+        <servlet-class>servlets.SvlCategoria</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvlProducto</servlet-name>
+        <servlet-class>servlets.SvlProducto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvlCargarDatos</servlet-name>
+        <servlet-class>servlets.SvlCargarDatos</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Producto</servlet-name>
+        <url-pattern>/Producto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvlCategoria</servlet-name>
+        <url-pattern>/SvlCategoria</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvlProducto</servlet-name>
+        <url-pattern>/SvlProducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvlCargarDatos</servlet-name>
+        <url-pattern>/SvlCargarDatos</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>SvlCargarDatos</welcome-file>
+    </welcome-file-list>
+</web-app>
